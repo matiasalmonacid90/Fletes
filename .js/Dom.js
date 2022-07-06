@@ -21,10 +21,12 @@ const productPresup = ['PROD1', 'PRODU2', 'PROD3', 'PROD4', 'PROD5', 'PROD6', 'P
 presupuestar()
 
 function presupuestar() {
-    botonpres.addEventListener("click", ()=>{alertapresup()})
-}
+    botonpres.addEventListener("click", ()=>{alertinicio()
+alertapresupuesto()})
 
+}
 function alertapresup() {
+    alertinicio()
     servicios2.innerText = "CARGAR PRODUCTOS"
     console.log(servicios2.innerText)
     const subtitulo = document.createElement("p")
